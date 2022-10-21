@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+
+    &__topbar {
+        text-transform: uppercase;
+    }
+
+    &__navbar {
+        font-size: 30px;
+    }
+}
