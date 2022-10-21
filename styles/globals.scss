@@ -2,12 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import
+  '_variables.scss',
+  '_mixins.scss',
+  'Home.module.scss',
+  'Header.module.scss',
+  'Footer.module.scss';
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: $text-font;
   background-color: black;
 }
 
@@ -20,7 +27,3 @@ a {
   box-sizing: border-box;
 }
 
-@import
-  '_variables.scss',
-  'Home.module.scss',
-  'Header.module.scss'
