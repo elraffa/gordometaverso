@@ -21,18 +21,24 @@
       font-family: $font-title;
       color: $secondary;
       text-align: center;
+      padding-bottom: 1rem;
       font-size: 40px;
+      display: inline-block;
+      width: 80%;
+      text-transform: uppercase;
       border-bottom: 1px solid $secondary;
       font-weight: map-get($font-weights, 'bolder');
     }
   
     &__text {
       color: $primary;
+      font-size: 22px;
       padding: 44px 280px;
       font-weight: map-get($font-weights, 'light');
 
       @include respond-below(lg) {
         padding: 14px 20px;
+        font-size: 18px;
       }
     }
 

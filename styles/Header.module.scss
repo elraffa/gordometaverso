@@ -44,6 +44,38 @@
         color: transparent;
         -webkit-text-stroke: 1px white;
         text-stroke: 1px white;
+        background-image: linear-gradient(to right,
+                $secondary,
+                $secondary 50%,
+                transparent 50%);
+        background-size: 200% 100%;
+        background-position: -100%;
+        display: inline-block;
+        padding: 5px 0;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.3s ease-in-out;
+        position: relative;
+
+        &::before {
+            content: '';
+            background: $secondary;
+            position: absolute;
+            bottom: -2px;
+            display: block;
+            left: 0;
+            width: 0;
+            height: 3px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        &:hover {
+            background-position: 0;
+        }
+
+        &:hover::before {
+            width: 100%;
+        }
     }
 
     &__links--active {

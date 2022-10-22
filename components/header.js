@@ -10,7 +10,9 @@ export default function Header() {
 
   return (
     <>
-      <div className="header__topbar">Gordometaverso</div>
+      <div className="header__topbar">
+        <Link href='/'>Gordometaverso</Link>
+        </div>
       <div className="header bg-cover bg-top bg-no-repeat bg-hero-pattern">
         <nav className="header__navbar">
           <Link href='/#title'><a className={router.pathname == "/" ? 'header__links--active' : 'header__links'}>Sobre Mi</a></Link>
