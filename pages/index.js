@@ -8,14 +8,14 @@ export default function Home() {
   return (
     <div>
       <div className="main">
-        <h1 className='main__title' id="title">Sobre el Gordometaverso</h1>
+        <h1 className='main__title' id="title">Sobre Mi</h1>
         <div className='main__text'>
           <p className='main__par'>
-            Gordometaverso es uno de los comediantes gordos con mayor crecimiento este último tiempo. Después de más de 9 años de carrera, nunca logró afianzarse como una figura de referencia en el stand up local.</p>
+            Gordometaverso es uno de los comediantes gordos con mayor crecimiento este último tiempo. Después de más de 9 años de hacer comedia, nunca logró afianzarse como una figura de referencia en el Stand Up local.</p>
           <p className='main__par'>
             Lleva 9 temporadas consecutivas en Plaza Serrano donde varias veces algunos espectadores quisieron golpearlo con palos, flota-flotas y otros objetos contundentes.</p>
           <p className='main__par'>
-            Como actor jamás quedo en ningún casting. Su fuerte es la falta de registro y la carencia de autocrítica y es por eso es que hoy está pasando un mal momento económico.</p>
+            Como actor jamás quedo en ningún casting. Su fuerte en los show de stand up es la falta de registro y la carencia de autocrítica y es por eso es que hoy está pasando un mal momento económico.</p>
           <p className='main__par'>
             ¿Sus debilidades? Por donde arrancar... sobrepeso, asma, estrías, dos dientes torcidos, le crece mucho pelo entre las cejas...</p>
           <p className='main__par'>
