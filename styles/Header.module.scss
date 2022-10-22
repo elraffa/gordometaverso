@@ -22,6 +22,8 @@
 
     &__sitetitle {
         text-transform: uppercase;
+        font-family: $font-title;
+        font-weight: map-get($font-weights, 'bolder');
 
         &:hover {
             color: $primary;
