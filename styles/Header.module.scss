@@ -45,6 +45,15 @@
         }
     }
 
+    &__hero-wrapper {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    &__image-wrapper {
+        z-index: -1;
+      }
 
     &__navbar {
         padding: 89px 0 89px 60px;
@@ -56,6 +65,8 @@
         line-height: 90px;
         letter-spacing: -0.02em;
         text-transform: uppercase;
+        position: relative;
+        width: 33%;
 
         @include respond-below(lg) {
             font-size: 44px;
@@ -63,6 +74,7 @@
             text-align: center;
             margin: 0 auto;
             padding: 50px 20px;
+            width: 70%;
         }
 
     }
