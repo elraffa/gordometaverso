@@ -1,10 +1,12 @@
-import { FaArrowAltCircleUp } from "react-icons/fa"
+import { FaCaretUp } from "react-icons/fa"
 import Link from "next/link"
 
 export default function ArrowTop () {
     return (
         <Link href='#top'>
-            <FaArrowAltCircleUp />
+            <a className="icon__top">
+                <FaCaretUp />
+            </a>
         </Link>
     )
 }

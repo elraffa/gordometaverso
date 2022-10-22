@@ -2,7 +2,7 @@ import Layout from '../components/layout';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import '../styles/Home.module.scss';
-import { ArrowTop } from '../components/ArrowTop';
+import ArrowTop from '../components/ArrowTop';
 
 export default function Home() {
   return (
@@ -21,8 +21,10 @@ export default function Home() {
           <p className='main__par'>
             Como comediante no pregunta bien los barrios, tiene poca creatividad para los chistes, poca improvisación, no sabe hacer voces, mala fonética, poca empatía con el público. Actualmente está presentando su nuevo show Criptocomedia.
           </p>
+          <ArrowTop />
         </div>
       </div>
+
     </div>
   );
 }
